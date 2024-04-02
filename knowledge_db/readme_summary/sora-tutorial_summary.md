@@ -1,0 +1,3 @@
+# sora-tutorial Summary
+
+这个仓库名是 sora-tutorial. 这仓库内容主要是围绕Sora原理与技术实战展开的学习课程，涵盖Sora技术路径详解和核心技术解析，包括diffusion视频生成、Transformers技术、声音生成TTS技术等内容。学习过程中还提供实战练习和和学术专家支持，旨在帮助开发者深入理解AI项目源码，参与开源分享，共同成长。

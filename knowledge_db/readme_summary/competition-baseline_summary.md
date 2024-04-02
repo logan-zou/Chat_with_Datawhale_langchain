@@ -1,0 +1,3 @@
+# competition-baseline Summary
+
+这个仓库名是 competition-baseline。这仓库内容主要是基于各种比赛的baseline方案的整理和分享，适合数据竞赛的初学者和爱好者学习和参考。
