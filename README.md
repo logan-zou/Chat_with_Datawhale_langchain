@@ -36,6 +36,12 @@
 **问答演示界面**
 ![问答演示界面](./figures/QA.png)
 
+**实例演示界面**
+1. ***介绍下 joyrl 演示***
+![介绍下joyrl](./figures/介绍下joyrl演示.png)
+2. ***joyrl-book 与 joyrl 是什么关系演示***
+![joyrl-book与joyrl是什么关系](./figures/joyrl-book与joyrl是什么关系演示.png)
+
 ## 二、技术实现
 
 ### 1、环境依赖
@@ -54,8 +60,8 @@
 **克隆储存库**
 
 ```shell
-git clone https://github.com/datawhalechina/llm-universe.git
-cd llm-universe/project
+git clone https://github.com/logan-zou/Chat_with_Datawhale_langchain.git
+cd Chat_with_Datawhale_langchain
 ```
 
 **创建 Conda 环境并安装依赖项**
@@ -98,29 +104,29 @@ python run_gradio.py -model_name='chatglm_std' -embedding_model='m3e' -db_path='
 
  - **当前版本**：0.2.0(更新于2024.3.17)
    - **更新内容**
-     - [x] 新增 m3e embedding
-     - [x] 新增知识库内容
-     - [x] 新增 Datawhale 的所有 Md 的总结
-     - [x] 修复 gradio 显示错误
+     - [√] 新增 m3e embedding
+     - [√] 新增知识库内容
+     - [√] 新增 Datawhale 的所有 Md 的总结
+     - [√] 修复 gradio 显示错误
  
    - **目前支持的模型**
      - OpenAi
-       - [x] gpt-3.5-turbo
-       - [x] gpt-3.5-turbo-16k-0613
-       - [x] gpt-3.5-turbo-0613
-       - [x] gpt-4
-       - [x] gpt-4-32k
+       - [√] gpt-3.5-turbo
+       - [√] gpt-3.5-turbo-16k-0613
+       - [√] gpt-3.5-turbo-0613
+       - [√] gpt-4
+       - [√] gpt-4-32k
      - 文心一言
-       - [x] ERNIE-Bot
-       - [x] ERNIE-Bot-4
-       - [x] ERNIE-Bot-turbo
+       - [√] ERNIE-Bot
+       - [√] ERNIE-Bot-4
+       - [√] ERNIE-Bot-turbo
      - 讯飞星火
-       - [x] Spark-1.5
-       - [x] Spark-2.0
+       - [√] Spark-1.5
+       - [√] Spark-2.0
      - 智谱 AI
-       - [x] chatglm_pro
-       - [x] chatglm_std
-       - [x] chatglm_lite
+       - [√] chatglm_pro
+       - [√] chatglm_std
+       - [√] chatglm_lite
 
  - **未来规划**
    - [ ] 更新 智谱Ai embedding
