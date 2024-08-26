@@ -84,19 +84,19 @@ pip install -r requirements.txt
 - 启动服务为本地 API
 ```shell
 # Linux 系统
-cd project/serve
+cd serve
 uvicorn api:app --reload 
 ```
 
 ```shell
 # Windows 系统
-cd project/serve
+cd serve
 python api.py
 ```
 - 运行项目
 ```shell
-cd llm-universe/project/serve
-python run_gradio.py -model_name='chatglm_std' -embedding_model='m3e' -db_path='../../data_base/knowledge_db' -persist_path='../../data_base/vector_db'
+cd serve
+python run_gradio.py
 ```
 ### 2、开发流程简述
 
@@ -116,6 +116,7 @@ python run_gradio.py -model_name='chatglm_std' -embedding_model='m3e' -db_path='
        - [√] gpt-3.5-turbo-0613
        - [√] gpt-4
        - [√] gpt-4-32k
+       - [√] gpt-4o-mini
      - 文心一言
        - [√] ERNIE-Bot
        - [√] ERNIE-Bot-4
