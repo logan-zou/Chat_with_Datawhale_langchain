@@ -74,7 +74,8 @@ cd Chat_with_Datawhale_langchain
 conda create -n llm-universe python==3.9.0
 # 激活 Conda 环境
 conda activate llm-universe
-# 安装依赖项
+# 安装依赖项 
+# 注意 requirements.txt 文件中的uvloop只支持Linux系统 如果您使用的是windows系统请将该包删除
 pip install -r requirements.txt
 ```
 
